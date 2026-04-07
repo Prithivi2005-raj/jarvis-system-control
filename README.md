@@ -1,70 +1,67 @@
-# EcoRoute RL Agent 🚗🌱
+# Jarvis System Control 🎙️💻
 
-EcoRoute RL Agent is an AI-powered route optimization project that uses **Reinforcement Learning (RL)** to help identify more efficient and eco-friendly travel routes.  
-The goal of this project is to simulate an environment where an RL agent can learn how to make routing decisions that reduce travel cost, improve efficiency, and support greener transportation.
+Jarvis System Control is a Python-based desktop automation assistant inspired by the concept of a virtual AI assistant.  
+It allows users to interact with their system using commands to perform tasks such as opening applications, controlling system functions, automating basic actions, and improving productivity.
+
+This project is designed as a practical implementation of **Python automation**, **system control**, and **assistant-style command execution**.
 
 ---
 
 ## 📌 Project Overview
 
-This project is designed to demonstrate how **Reinforcement Learning** can be applied to real-world route planning problems.
+The goal of this project is to create a simple **Jarvis-like virtual assistant** that can help automate daily computer tasks.
 
-The agent interacts with a custom environment, receives feedback in the form of rewards, and learns to choose better routes over time.  
-This can be extended to use cases such as:
+It can be extended to:
 
-- Eco-friendly navigation
-- Smart transportation systems
-- Traffic-aware route optimization
-- Fuel-efficient delivery routing
-- Sustainable mobility solutions
+- Open and manage applications
+- Execute system-level commands
+- Perform voice or text-based command actions
+- Improve productivity with automation
+- Demonstrate Python scripting and system integration
+
+This project is useful for learning how to combine:
+
+- Python scripting
+- System automation
+- Command execution
+- Assistant logic
+- User productivity tools
 
 ---
 
 ## 🚀 Features
 
-- Custom Reinforcement Learning environment
-- Route decision simulation using RL concepts
-- Backend API integration for environment interaction
-- Frontend support for testing and visualization
-- Modular project structure for easy extension
-- OpenEnv-compatible project design
-- Ready for experimentation and future model training
+- System control through Python commands
+- Open applications and utilities
+- Perform desktop automation tasks
+- Modular and extendable project structure
+- Beginner-friendly automation project
+- Can be expanded into a voice-controlled assistant
+- Great for portfolio and learning purposes
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages & Frameworks
+### Languages & Tools
 - **Python**
-- **FastAPI** (Backend API)
-- **JavaScript / Frontend**
-- **YAML**
+- **VS Code**
+- **Git & GitHub**
 
 ### Concepts Used
-- **Reinforcement Learning**
-- **Environment Design**
-- **State / Action / Reward Logic**
-- **Client-Server Communication**
-- **API Testing**
+- **Python Automation**
+- **System Command Execution**
+- **Desktop Utility Scripting**
+- **Task Automation**
+- **Assistant-style Workflow**
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-ecoroute_rl_agent/
-│── __init__.py
-│── check_env.py
-│── check_client.py
-│── client.py
-│── models.py
-│── openenv.yaml
-│── pyproject.toml
-│── test_client.py
+jarvis-system-control/
 │── README.md
-│
-├── server/
-│   └── (backend API and environment logic)
-│
-├── frontend/
-│   └── (frontend files / interface)
+│── (main Python files)
+│── (helper modules / scripts)
+│── (assets or config files if included)
